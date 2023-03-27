@@ -52,7 +52,6 @@ h1{
 
 h2{
     color: #8c3826;
-    font-family: 'Sofia', cursive;
 }
 
 h3,
@@ -177,6 +176,33 @@ footer{
     border-top: 2px solid #8c3826;   
 }
 
+table {
+    margin: auto;
+    width: 90%;
+    border-spacing: 0;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d2b48e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%
+}
+
+input,
+textarea {
+    margin-bottom: 0.5em;
+}
+
 /* Medium */
 
 @media (min-width: 600px) {
@@ -232,6 +258,23 @@ footer{
     h4 {
         margin-left: 10%;
         margin-right: 10%
+    }
+
+    form {
+        width: 40%;
+        display: grid;
+        grid-gap: 1em;
+        gap: 1em;
+        grid-template-columns: 6em 1fr;
+    }
+
+    input[type="submit"] {
+        grid-column: 2/3;
+        width: 9em;
+    }
+
+    #herojobs {
+        background-image: url(images/herojobs.jpg)
     }
 }
 
