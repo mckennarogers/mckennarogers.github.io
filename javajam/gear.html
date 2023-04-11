@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en"
 
 <head>
     <meta charset="UTF-8">
@@ -31,42 +31,44 @@
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a class="current" href = "menu.html">Menu</a></li>
-                <li><a href = "music.html">Music</a></li>
+                <li><a href = "menu.html">Menu</a></li>
+                <li><a class= "current" href = "music.html">Music</a></li>
                 <li><a href = "jobs.html">Jobs</a></li>
                 <li><a href = "gear.html">Gear</a></li>
-            </ul>    
+            </ul>
         </nav>
 
         <main>
-            <div id="heromugs">
-            </div>            
-            <h2>Coffee at JavaJam</h2>
-            
-            <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste,
-                the caffeine! Join our <a id="mug" href="#">Mug Club</a> and get a 10% discount on each cup of coffee you
-                purchase &mdash; ask the barista for details.</p>
-            <div id="flow">
-                <table>
-                    <tr>
-                        <th>Just Java</th>
-                        <td>Regular house blend, decaffinated coffee, or flavor
-                            of the day.<br>Endless Cup - $3.50</td>  
-                    </tr>
-                    <tr>
-                        <th>Cafe au Lait</th>
-                        <td>House Blended Coffee infused into a smooth, steamed
-                            milk.<br>Single - $4.00, Double - $5.00</td>
-                    </tr>
-                    <tr>
-                        <th>Iced Cappuccino</th>
-                        <td>Sweetened espresso blended with icy-cold milk and
-                            served in a chilled glass.<br>Single - $5.00, Double - $6.50</td>
-                </table>
+            <div id = "herocouch">
             </div>
-            
+            <h2>JavaJam Gear</h2>
+            <p>Indulge in our locally roasted free-trade coffee
+            and enjour the aroma, the smooth taste, and the caffine!
+            Join our <a id="mug" href="#">Mug Club</a> and get a 
+            10% discount on each cup of coffee you purcase &mdash;
+            ask the barista for details.</p> 
+            <div>id="flow"
+                <div class="item">
+                    <img src="images/javashirt.jpg" alt="JavaJame Shirt" width="161" height="150">
+                    <h3 JavaJam Shirt></h3>
+                    <p>JavaJam shirts are comfortable to wear to school and
+                    around town. 100% cotton. XL only. $14.95></p>
+                    <form method="get" action="https://webdevbasics.net/cart.html">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </div>
+                <div class="item">
+                    <img src="images/javamug.jpg" alt="JavaJam Mug" width="161" height="150">
+                    <h3>JavaJam Mug</h3>
+                    <p>JavaJam mugs carry a full load of caffine (12 oz) to 
+                    jump-start your morning. $9.95</p>
+                    <form method="get" action="https://webdevbasics.net/cart.html">
+                        <input type="submit" value="Add to Cart">
+                    </form>
+                </div>
+            </div>
         </main>
-
+        
         <footer>
             <small><i>Copyright &copy; 2023 JavaJam Coffee Bar<br>
                 <a href="mailto:mckenna.rogers@javajam.com">mckenna.rogers@javajam.com</a>
@@ -78,7 +80,7 @@
             </div>
 
         </footer>
-    </div>    
+    </div>
 </body>
 
 </html>
