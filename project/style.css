@@ -709,7 +709,7 @@ section {
   min-height: 500px;
 }
 
-.abouthiawatha .image {
+#abouthiawatha .image {
   background: url("assets/img/hme.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
