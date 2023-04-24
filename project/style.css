@@ -322,6 +322,14 @@ h6 {
   position: relative;
 }
 
+#herohiawatha {
+  width: 100%;
+  height: 100vh;
+  background: url("assets/img/hero-bg-hiawatha.jpg") top right;
+  background-size: cover;
+  position: relative;
+}
+
 
 #hero:before {
   content: "";
