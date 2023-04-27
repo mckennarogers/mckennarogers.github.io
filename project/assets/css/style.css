@@ -317,12 +317,36 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background: url("../img/hero-bg-hiawatha.jpg") top right;
   background-size: cover;
   position: relative;
 }
 
-#hero:before {
+#hero-africa {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg-africa.jpg") top right;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-hiawatha {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg-hiawatha.jpg") top right;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-yosemite {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg-yosemite.jpg") top right;
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before, #hero-africa:before, #hero-hiawatha:before, #hero-yosemite:before {
   content: "";
   background: rgba(0, 0, 0, 0.65);
   position: absolute;
@@ -332,7 +356,7 @@ h6 {
   right: 0;
 }
 
-#hero .hero-container {
+#hero .hero-container, #hero-africa .hero-container, #hero-hiawatha .hero-container, #hero-yosemite .hero-container  {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -345,14 +369,14 @@ h6 {
   padding: 0 15px;
 }
 
-#hero h1 {
+#hero h1, #hero-africa h1,  #hero-hiawatha h1,  #hero-yosemite h1     {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-family: "Satisfy", serif;
   color: #fff;
 }
 
-#hero h2 {
+#hero h2, #hero-africa h2, #hero-hiawatha h2, #hero-yosemite h2   {
   color: #eee;
   margin-bottom: 50px;
   font-size: 13px;
@@ -361,17 +385,23 @@ h6 {
   text-transform: uppercase;
 }
 
-#hero .btn-scroll {
+
+#hero .btn-scroll, #hero-africa .btn-scroll, #hero-hiawatha .btn-scroll, #hero-yosemite .btn-scroll {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
-#hero .btn-scroll i {
+#hero .btn-scroll, #hero-africa .btn-scroll, #hero-hiawatha .btn-scroll, #hero-yosemite .btn-scroll   {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+#hero .btn-scroll i, #hero-africa .btn-scroll i, #hero-hiawatha .btn-scroll i, #hero-yosemite .btn-scroll i{
   font-size: 48px;
 }
 
-#hero .btn-scroll:hover {
+#hero .btn-scroll:hover, #hero-africa .btn-scroll:hover, #hero-hiawatha .btn-scroll:hover, #hero-yosemite .btn-scroll:hover    {
   color: #ffb727;
 }
 
